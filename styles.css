@@ -3,16 +3,34 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+/*Assign ment is to move a div around a page
+Flexbox
+*/
 
-main {
-  width: 100%;
-  text-align: center;
+.header {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* .logo-center {
-  text-align: center;
+/*The way Jonas taught*/
+/* .header {
+  height: 95vh;
+  position: relative;
 }
 
-.main-search {
-  margin: 0 auto;
+.header-google-logo {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 } */
